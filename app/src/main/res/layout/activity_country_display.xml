@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/display_capital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/display_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/display_subregion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/display_population"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:text="@string/textview" />
+
+    <ImageView
+        android:id="@+id/country_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingTop="30dp"
+        android:paddingEnd="10dp"
+        app:srcCompat="@drawable/world" />
+</LinearLayout>
